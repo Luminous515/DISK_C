@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "MOUSE.C": "cpp",
+        "MAIN.C": "cpp",
+        "IMOUSE.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
