@@ -19,4 +19,4 @@ extern int MouseY;
 extern int MouseS;
 extern int press;
 extern union REGS regs;
-#endif 
+#endif
