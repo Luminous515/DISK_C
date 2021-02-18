@@ -50,7 +50,16 @@ typedef struct canteeninfo //食堂信息
     MN menu[20];     //具体菜单
 }CTN;
 
-typedef struct warehouse //仓库信息
+typedef struct warehouse //后勤仓库信息
 {
     FD food[20];
-}
+}WH;
+
+typedef struct logisticinfo
+{
+    char location[15]; //当前位置
+    char state[15]; //当前状态
+}LGTC;
+
+
+#endif
