@@ -4,7 +4,7 @@
 //*开始的主页面
 
 
-#include "data.h" //todo数据库
+//#include "data.h" //todo数据库
 #include "home.h"  //todo主页和登录
 /*#include "register.h"  //todo注册
 #include "user.h" //todo食堂界面
