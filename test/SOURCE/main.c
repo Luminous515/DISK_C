@@ -4,15 +4,25 @@
 
 void main()
 {
-	int driver=VGA;
+	int page = 0;
+    int driver=VGA;
     int mode=VGAHI;  
 	initgraph(&driver,&mode,"C:\\BORLANDC\\bgi");
-    mouseinit();
-    while(1)
-    {
-        setfillstyle(SOLID_FILL,DARKGRAY);
-        bar(0,0,MAX_X-1,MAX_Y-1);
-        puthz(100, 300, "欢迎", 24, 34, WHITE);
-    }
+	mouseinit();
+    while (1)
+	{
+		switch (page)
+		{
+			case 0:		//*最初界面
+				home(&page);  
+				break;          //回到最初界面
 
-}
+			case 1:		//关闭系统
+				delay(1000);
+				closegraph();//关闭画图
+				exit(1);
+		}
+	}
+
+
+ }

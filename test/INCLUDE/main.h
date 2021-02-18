@@ -11,4 +11,6 @@
 #include "admin.h" //todo后勤管理员界面
 */
 
+void main();
+
 #endif
